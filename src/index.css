@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-automotive-dark: #0B0D10;
+  --color-automotive-card: #141820;
+  --color-automotive-surface: #1B2029;
+  --color-automotive-border: #2B303A;
+  --color-automotive-text: #F5F5F5;
+  --color-automotive-muted: #A4ABB7;
+  --color-automotive-orange: #FF7048;
+}
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 60s linear infinite;
+    flex-shrink: 0;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}

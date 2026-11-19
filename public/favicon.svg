@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Badge Background with Orange Accent Border -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="#ea580c" stroke-width="2.5"/>
+
+  <!-- Vintage Speed / Acervo Accent Line -->
+  <path d="M 8 45 L 56 45" stroke="#27272a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 12 47 L 52 47" stroke="#ea580c" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Classic Muscle / Vintage Car Body Silhouette -->
+  <!-- Long low hood, iconic 70s fastback coupe greenhouse, vintage rear deck -->
+  <path d="M 10 37 
+           C 10 35, 12 34, 15 34 
+           L 24 33 
+           L 29 25 
+           C 30 23.5, 32 23, 35 23 
+           L 44 23 
+           C 47 23, 49 24.5, 51 28 
+           L 54 33 
+           L 55 33 
+           C 57 33, 58 34.5, 57.5 36.5 
+           L 56.5 40 
+           C 56 41, 55 41.5, 53.5 41.5 
+           L 49 41.5 
+           C 49 38, 46 35.5, 42.5 35.5 
+           C 39 35.5, 36 38, 36 41.5 
+           L 26 41.5 
+           C 26 38, 23 35.5, 19.5 35.5 
+           C 16 35.5, 13 38, 13 41.5 
+           L 11 41.5 
+           C 9.5 41.5, 9 40.5, 9 39 
+           Z" 
+        fill="url(#carGrad)"/>
+
+  <!-- Cabin Glass (Vintage 2-window coupe profile) -->
+  <!-- Front windshield & side window -->
+  <path d="M 30.5 25.5 
+           L 36.5 25.5 
+           L 36.5 32 
+           L 26 32 
+           Z" 
+        fill="url(#glassGrad)"/>
+
+  <!-- Rear quarter window -->
+  <path d="M 38.5 25.5 
+           L 43.5 25.5 
+           C 45.5 25.5, 47 26.5, 48.5 29 
+           L 50 32 
+           L 38.5 32 
+           Z" 
+        fill="url(#glassGrad)"/>
+
+  <!-- Classic Headlight Glow -->
+  <circle cx="11.5" cy="36.5" r="1.8" fill="#fef08a"/>
+  <!-- Classic Chrome Front Bumper Accent -->
+  <path d="M 8.5 39 L 12 39" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Classic Chrome Rear Bumper Accent -->
+  <path d="M 54.5 40.5 L 57.5 40" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Front Wheel Assembly (Classic deep-dish mag wheel) -->
+  <circle cx="19.5" cy="41.5" r="5.5" fill="#09090b" stroke="#3f3f46" stroke-width="1.5"/>
+  <circle cx="19.5" cy="41.5" r="3.2" fill="#ea580c"/>
+  <circle cx="19.5" cy="41.5" r="1.2" fill="#ffffff"/>
+
+  <!-- Rear Wheel Assembly -->
+  <circle cx="42.5" cy="41.5" r="5.5" fill="#09090b" stroke="#3f3f46" stroke-width="1.5"/>
+  <circle cx="42.5" cy="41.5" r="3.2" fill="#ea580c"/>
+  <circle cx="42.5" cy="41.5" r="1.2" fill="#ffffff"/>
+</svg>

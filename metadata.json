@@ -1,0 +1,6 @@
+{
+  "name": "ACERVO DOS ANTIGOS",
+  "description": "Loja online profissional de peças automotivas antigas, clássicas e de coleção.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
